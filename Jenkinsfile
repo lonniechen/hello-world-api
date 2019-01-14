@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('---clean---') {
             steps {
+            	sh "whoami"
                 sh "mvn clean"
             }
         }
