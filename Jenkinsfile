@@ -5,13 +5,9 @@ pipeline {
         stage('---clean---') {
             steps {
             	sh "whoami"
-                sh "mvn clean"
+                sh "mvn -v"
             }
         }
-        stage('---test---') {
-            steps {
-                 sh "mvn test"
-            }
-        }
+   
     }
 }
