@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.papyrus</groupId>
-	<artifactId>helloWorldAPI</artifactId>
+	<artifactId>hello-world-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>helloWorldAPI</name>
+	<name>hello-world-api</name>
 	<description>Demo project for jenkins</description>
 
 	<properties>
